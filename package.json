@@ -1,0 +1,25 @@
+{
+  "name": "stripe-test-server",
+  "version": "1.0.0",
+  "description": "Stripe Test Server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifzayn/stripe-test-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arifzayn/stripe-test-server/issues"
+  },
+  "homepage": "https://github.com/arifzayn/stripe-test-server#readme"
+}
