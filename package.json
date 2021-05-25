@@ -4,7 +4,7 @@
   "description": "Stripe Test Server",
   "main": "server.js",
   "dependencies": {
-    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "stripe": "^8.149.0"
   },

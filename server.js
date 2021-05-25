@@ -1,13 +1,9 @@
 const express = require('express');
-const cors = require('cors');
-
+require('dotenv').config()
 const app = express();
 app.use(express.json());
-app.use(cors());
 
-const stripe = require('stripe')(
-  'sk_test_51IsoKoC4yLgdhwCefALIiyedM60Bc9znfSEpDFxUM2dgMmnSZmfMWbMuiyGgunOfmRNBlyjbrJSqClA8Smt4c1lH00xnVaSBLV',
-);
+const stripe = require('stripe')(process.env.secret_key);
 
 app.post('/checkout', async (req, res) => {
   // Use an existing Customer ID if this is a returning customer.
